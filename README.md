@@ -1,6 +1,8 @@
 # Google Sign-In for Carthage
 
-This is a dynamic version of the [GoogleSignIn](https://developers.google.com/identity/sign-in/ios/sdk/) framework for iOS that is compatible with [Carthage](https://github.com/Carthage/Carthage).
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+This is a dynamic version of the [Google Sign-In](https://developers.google.com/identity/sign-in/ios/sdk/) framework for iOS that is compatible with [Carthage](https://github.com/Carthage/Carthage).
 
 # Installation
 
