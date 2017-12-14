@@ -1,0 +1,29 @@
+# CocoaPods
+Pods
+
+# Carthage
+Carthage/*
+Cartfile.resolved
+
+# OS X
+.DS_Store
+
+*~.nib
+
+# build
+fastlane/report.xml
+fastlane/README.md
+artifact/
+
+# xcode trash
+*.pbxuser
+*.perspective
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+#Localizable
+*.strings
