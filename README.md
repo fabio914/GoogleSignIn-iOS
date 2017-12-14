@@ -16,10 +16,14 @@ $ carthage update GoogleSignIn-iOS --platform ios
 ```
  - Add `GoogleSignIn.framework` (at `Carthage/Build/iOS`) to your project.
  - Add `GoogleSignIn.framework/GoogleSignIn.bundle` to your Xcode project's **Copy Bundle Resources** build phase.
- - In the **Project > Target > Info > URL Types** panel, create a new item and paste your `REVERSED_CLIENT_ID` into the **URL Schemes** field. You can find your `REVERSED_CLIENT_ID` in the `GoogleService-Info.plist file`.
+ - In the **Project > Target > Info > URL Types** panel, create a new item and paste your `REVERSED_CLIENT_ID` into the **URL Schemes** field. You can find your `REVERSED_CLIENT_ID` in the `GoogleService-Info.plist` file.
  - Follow these [instructions](https://developers.google.com/identity/sign-in/ios/sign-in?ver=swift) as if you *manually installed the SDK*.
 
 # Version
 
  - XCode 8.3
  - iOS 9.3
+ 
+ # Reference
+ 
+ [Converting Static Libraries to Dynamic Libraries](https://pewpewthespells.com/blog/convert_static_to_dynamic.html)
