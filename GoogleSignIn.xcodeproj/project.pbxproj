@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30DE068215C1972004A3665 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30DE067215C1972004A3665 /* LocalAuthentication.framework */; };
 		A31FAEA31FD1B91C00DD6944 /* GoogleSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = A31FAEA11FD1B91C00DD6944 /* GoogleSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A31FAEB51FD1B99900DD6944 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FAEB41FD1B99900DD6944 /* SafariServices.framework */; };
 		A31FAEB71FD1B9A100DD6944 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FAEB61FD1B9A100DD6944 /* SystemConfiguration.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30DE067215C1972004A3665 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		A31FAE9E1FD1B91C00DD6944 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31FAEA11FD1B91C00DD6944 /* GoogleSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleSignIn.h; sourceTree = "<group>"; };
 		A31FAEA21FD1B91C00DD6944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30DE068215C1972004A3665 /* LocalAuthentication.framework in Frameworks */,
 				A31FAECF1FD1BBDA00DD6944 /* CoreText.framework in Frameworks */,
 				A31FAECD1FD1BBAB00DD6944 /* Security.framework in Frameworks */,
 				A31FAEC91FD1BB7900DD6944 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		A31FAEB31FD1B99800DD6944 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A30DE067215C1972004A3665 /* LocalAuthentication.framework */,
 				A31FAECE1FD1BBDA00DD6944 /* CoreText.framework */,
 				A31FAECC1FD1BBAB00DD6944 /* Security.framework */,
 				A31FAECA1FD1BB8B00DD6944 /* CoreTelephony.framework */,
