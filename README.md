@@ -8,7 +8,7 @@ This is a dynamic version of the [Google Sign-In](https://developers.google.com/
 
 - Add this line to your `Cartfile`:
 ```
-github "https://github.com/fabio914/GoogleSignIn-iOS" ~> 4.1
+github "https://github.com/fabio914/GoogleSignIn-iOS" ~> 4.2
 ```
  - Update your dependencies:
 ```
