@@ -8,7 +8,6 @@ Cartfile.resolved
 # OS X
 .DS_Store
 
-*~.nib
 
 # build
 fastlane/report.xml
@@ -25,5 +24,3 @@ artifact/
 project.xcworkspace/
 xcuserdata/
 
-#Localizable
-*.strings

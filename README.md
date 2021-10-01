@@ -16,7 +16,7 @@ $ carthage update GoogleSignIn-iOS --use-xcframeworks
 ```
  - Add `GoogleSignIn.xcframework` (at `Carthage/Build/`) to your project.
  
- - (Optional) Add `GoogleSignIn_GoogleSignIn.bundle` to your Xcode project's **Copy Bundle Resources** build phase if you wish to use the `GIDSignInButton`.
+ - Add `GoogleSignIn_GoogleSignIn.bundle` to your Xcode project's **Copy Bundle Resources** build phase. Alerts and `GIDSignInButton` won't work without it.
  
  - In the **Project > Target > Info > URL Types** panel, create a new item and paste your `REVERSED_CLIENT_ID` into the **URL Schemes** field. You can find your `REVERSED_CLIENT_ID` in the `GoogleService-Info.plist` file. More [details](https://developers.google.com/identity/sign-in/ios/start-integrating#add_a_url_scheme_for_google_sign-in_to_your_project).
  
